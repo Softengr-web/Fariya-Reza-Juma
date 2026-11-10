@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="A dreamy birthday celebration made with love for Fariya Reza Juma." />
+  <title>Fariya Reza Juma | Birthday Celebration</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style/main.css" />
+</head>
+
+<body>
+  <audio class="song" loop preload="metadata" aria-hidden="true">
+    <source src="" />
+  </audio>
+
+  <div class="ambient-background" aria-hidden="true">
+    <span class="ambient-glow ambient-glow--pink"></span>
+    <span class="ambient-glow ambient-glow--blue"></span>
+    <img class="ambient-moon" src="./img/moon.svg" alt="" />
+    <span class="ambient-orbit ambient-orbit--one"></span>
+    <span class="ambient-orbit ambient-orbit--two"></span>
+    <span class="ambient-comet ambient-comet--one"></span>
+    <span class="ambient-comet ambient-comet--two"></span>
+    <span class="ambient-bokeh ambient-bokeh--one"></span>
+    <span class="ambient-bokeh ambient-bokeh--two"></span>
+    <img class="ambient-doll" src="./img/doll.svg" alt="" />
+    <img class="ambient-flower ambient-flower--one" src="./img/flower.svg" alt="" />
+    <img class="ambient-flower ambient-flower--two" src="./img/flower.svg" alt="" />
+    <img class="ambient-flower ambient-flower--three" src="./img/flower.svg" alt="" />
+    <img class="ambient-flower ambient-flower--four" src="./img/flower.svg" alt="" />
+    <span class="ambient-heart ambient-heart--one">♡</span>
+    <span class="ambient-heart ambient-heart--two">♡</span>
+    <span class="ambient-heart ambient-heart--three">♡</span>
+    <div class="ambient-butterflies" id="ambient-butterflies"></div>
+    <div class="ambient-stars" id="ambient-stars"></div>
+  </div>
+
+  <div class="experience-progress" id="experience-progress" role="progressbar" aria-label="Celebration progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <span class="experience-progress__fill"></span>
+  </div>
+
+  <main class="container" aria-label="A birthday celebration" aria-live="polite"></main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./config.js"></script>
+  <script src="./script/main.js"></script>
+</body>
+
+</html>
+
